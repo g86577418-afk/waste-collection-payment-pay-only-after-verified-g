@@ -10,10 +10,15 @@ path = 'contracts/payment.clar'
 clarity_version = 3
 epoch = '3.2'
 
+[contracts.registry]
+path = 'contracts/registry.clar'
+clarity_version = 3
+epoch = 'latest'
+
 [contracts.verification]
 path = 'contracts/verification.clar'
 clarity_version = 3
-epoch = 'latest'
+epoch = '3.2'
 [repl.analysis]
 passes = ['check_checker']
 
